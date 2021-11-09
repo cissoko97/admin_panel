@@ -15,7 +15,9 @@ class Header extends StatelessWidget {
           'DashBoard',
           style: Theme.of(context).textTheme.headline6,
         ),
-        Spacer(),
+        Spacer(
+          flex: 2,
+        ),
         Expanded(
           child: SearchBar(),
         ),
